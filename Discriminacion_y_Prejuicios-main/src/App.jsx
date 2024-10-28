@@ -8,6 +8,8 @@ import Contactanos from "./paginas/Contactanos";
 import QS from "./paginas/qs";
 import Cursos from "./paginas/cursos";
 import Blog from "./paginas/blog";
+import Metodología from "./paginas/metodologia";
+import Relacionate from "./paginas/relacionate";
 
 export default function App() {
   return (
@@ -23,6 +25,8 @@ export default function App() {
         <Route exact path="/qs" element={<QS />} />
         <Route exact path="/cursos" element={<Cursos />} />
         <Route exact path="/Blog" element= {<Blog />} />
+        <Route exact path="/metodologia" element={<Metodología />} />
+        <Route exact path="/relacionate" element={<Relacionate />} />
         
       </Routes>
     </Router>

@@ -58,9 +58,12 @@ function Cursosinicial() {
                 Aquí encontrarás más personas con las que podrás hablar
                 libremente de dichos temas sin sentirte juzgado.
               </p>
+              <Link to="/relacionate">
               <div class="d-grid gap-2">
                 <button class="btn btn-primary" type="button">Ver más</button>
                 </div>
+                </Link>
+            
             </div>
           </div>
         </div>
